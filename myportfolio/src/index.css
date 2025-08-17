@@ -1,0 +1,136 @@
+/* Custom CSS for Portfolio */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fc; /* soft pastel background */
+  color: #333; /* dark text */
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom hover effects */
+.card-hover {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(102, 126, 234, 0.3);
+}
+
+/* Profile image styling */
+.profile-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(118, 75, 162, 0.2);
+  border: 3px solid #667eea; /* accent border */
+}
+
+/* Navbar custom styling */
+.navbar-custom {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 2px 6px rgba(102, 126, 234, 0.2);
+}
+
+.navbar-custom .nav-link {
+  color: #333 !important;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #667eea !important; /* accent on hover */
+}
+
+/* Hero section styling */
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff;
+  color: #333;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+  background: #f0f4ff;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 2px solid #667eea;
+}
+
+/* Skills progress bars */
+.skill-progress {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #e0e4f8;
+}
+
+.skill-progress .progress-bar {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+/* Social icons */
+.social-icon {
+  font-size: 2rem;
+  margin: 0 10px;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #667eea;
+  text-decoration: none;
+}
+
+/* Footer */
+.footer-custom {
+  background-color: #667eea;
+  color: white;
+  padding: 20px 0;
+}
+
+/* Project link button */
+.project-link-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #667eea;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: transform 0.3s;
+}
+
+.project-link-btn:hover {
+  transform: scale(1.1);
+  background: #764ba2;
+}
+
+/* Timeline styling */
+.timeline-item {
+  border-left: 3px solid #667eea;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.timeline-date {
+  color: #764ba2;
+  font-weight: bold;
+}
