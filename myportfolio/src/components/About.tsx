@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card, Button, Badge } from 'react-bootstrap';
 import { FaDownload } from 'react-icons/fa';
 
+
 const About = () => {
   return (
     <section id="about" className="py-5">
